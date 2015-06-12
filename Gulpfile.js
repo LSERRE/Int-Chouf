@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	autoprefixer = require('gulp-autoprefixer'),
+	watch = require('gulp-watch'),
 	notify = require('gulp-notify');
 
 // Styles
