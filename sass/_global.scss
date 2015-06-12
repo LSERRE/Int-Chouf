@@ -1,8 +1,3 @@
-body {
-	height:calc(100vh - $header-height - $footer-height);
-	width:100%;
-}
-
 header {
 	width:100%;
 	height: $header-height;
@@ -38,7 +33,7 @@ ul {
 
 section {
 	width:100%;
-	height:calc(100vh);
+	height: calc(100vh - #{$header-height} - #{$footer-height});
 	background: url(../img/background.jpg) no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
