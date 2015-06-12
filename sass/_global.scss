@@ -1,0 +1,81 @@
+body {
+	height:calc(100vh - $header-height - $footer-height);
+	width:100%;
+}
+
+header {
+	width:100%;
+	height: $header-height;
+	background:#0c0701;
+
+	.social {
+		float:right;
+	}
+
+	a img {
+		border:0;
+	}
+}
+
+
+ul {
+	margin-top: 15px;
+
+	li {
+		display:inline-block;
+		margin-right:20px;
+
+		a {
+			transition: 1s;
+			opacity: 0.8;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+section {
+	width:100%;
+	height:calc(100vh);
+	background: url(../img/background.jpg) no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+}
+
+footer {
+	width:100%;
+	height: $footer-height;
+	background:#080808;
+	text-align: center;
+
+	.mog img {
+		float:left;
+		margin-top: 27px;
+		margin-left: 20px;
+	}
+
+	p {
+		font-family: 'dinlight', 'arial', 'sans-serif';
+		color:#636363;
+		font-size: 12px;
+		letter-spacing: 0.5px;
+		position:absolute;
+		bottom:1%;
+		left:40%;
+
+		a {
+			color:#fff;
+			letter-spacing: 0.5px;
+		}
+
+		.lodeston img {
+			float:right;
+			margin-top: 12px;
+			margin-right: 20px;
+		}
+	}
+}
