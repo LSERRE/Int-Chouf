@@ -96,7 +96,7 @@ ul {
 
 section {
   width: 100%;
-  height: calc(100vh - $header-height - $footer-height);
+  height: calc(100vh - 45px - 92px);
   background: url(../img/background.jpg) no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
